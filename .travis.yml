@@ -1,0 +1,15 @@
+sudo: required
+git:
+    submodules: false
+before_install:
+ - bash install_libsodium.sh
+ - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+ - git submodule update --init --recursive
+language: rust
+rust:
+  - stable
+  - beta
+  - nightly
+matrix:
+  allow_failures:
+    - rust: nightly

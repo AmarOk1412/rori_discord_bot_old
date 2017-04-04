@@ -1,0 +1,13 @@
+[package]
+name = "rori_discord_bot"
+version = "1.0.0"
+authors = ["AmarOk <blin.sebastien@enconn.fr>"]
+
+[dependencies]
+discord = { git = "https://github.com/SpaceManiac/discord-rs" }
+rustc-serialize = "*"
+regex = "*"
+log = "*"
+env_logger = "*"
+openssl = "0.7"
+rust-crypto = "^0.2"

@@ -1,0 +1,21 @@
+{
+ "ip":"127.0.0.1",
+ "port":"1417",
+ "rori_ip":"127.0.0.1",
+ "rori_port":"1412",
+ "owner":"*",
+ "name":"rori_discord_bot",
+ "compatible_types":"text",
+ "cert":"key/cert.pem",
+ "key":"key/key.pem",
+ "secret": "secret",
+ "botname":"RORI",
+ "channel": "CHANNEL",
+ "token":"TOKEN",
+ "authorize": [
+   {
+     "name":"rori_server",
+     "secret":"SECRET"
+   }
+ ]
+}
